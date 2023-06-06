@@ -1,7 +1,9 @@
 **PackConverter**
 -
 
-A bunch of spaghetti code that converts 1.19 / 1.20 resource packs to a format compatible with version 1.8. This was mainly tested on PVP texture packs, so the success rate of conversion may vary, especially for packs that rely heavily on JSON models. <br /> <br /> 
+A bunch of spaghetti code that converts 1.19 / 1.20 resource packs to a format compatible with version 1.8. This was mainly tested on PVP texture packs, so the success rate of conversion may vary, especially for packs that rely heavily on JSON models. 
+
+[Download](https://github.com/kimhw99/Minecraft/blob/main/PackConverter/PackConverter.zip) <br /> <br />
 
 
 **Dependencies**
@@ -24,4 +26,4 @@ A bunch of spaghetti code that converts 1.19 / 1.20 resource packs to a format c
 
 - Packs that rely heavily on 3D / JSON models may be buggy.
 - Certain entities (Horses, Boats, Zombie Pigmen) will not convert properly as they have different entity models. 
-- Some PVP packs will look different from the original because they were designed to be an overlay for the new 1.14 Jappa textures. You can download a pre-converted Jappa pack and overlay it on top to resolve this. Alternatively, you can extract the textures from the minecraft .jar file and convert it into a 1.8 pack using the PackConverter.
+- Some PVP packs will look different from the original because they were designed to be an overlay for the new 1.14 Jappa textures. You can download a [pre-converted Jappa pack](https://www.curseforge.com/minecraft/texture-packs/jappa-backport) and overlay the converted pack on top to resolve this. Alternatively, you can extract the textures from the minecraft .jar file and convert it into a 1.8 pack using the PackConverter.
