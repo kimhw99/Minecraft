@@ -16,9 +16,9 @@ A bunch of spaghetti code that converts 1.19 / 1.20 resource packs to a format c
 
 **Steps to Use**
 
-1. Unzip PackConverter.zip into a folder.
+1. Unzip **PackConverter.zip** into a folder.
 2. Place a resource pack of choice into the same folder. 
-3. Run PackConverter.py 
+3. Run **PackConverter.py **
 4. Input the resource pack name to convert & initiate.
 5. The script will output a new pack compatible with Minecraft 1.8.  <br /> <br />
 
