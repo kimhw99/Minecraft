@@ -1,0 +1,64 @@
+MOBS
+- Chest is bugged when animated
+- Horse (Different Vanilla Model / Optifine TODO)
+- Villager (Optifine TODO)
+- Zombie Villager (Optifine TODO)
+- Boat (Different Vanilla Model / Optifine TODO)
+- Iron Golem * (Optifine TODO)
+- Zombie Pigman (Different Vanilla Model / Optifine TODO)
+
+- End Portal (?)
+
+
+3D MODELS
+* Fences, Fence Gates
+  - option 1: remove
+  - option 2: keep
+       - if there's only pole, use the default side texture
+       - add missing textures for walls / fences manually
+       - fence gate renaming (done probably*)
+
+* Slabs
+  - option 1. remove
+  - option 2. keep
+       - Fix missing textures
+
+* Add Root .json Models
+* Check if textures exist or not & reassign
+* Diagonal Rail
+* Doors
+* Blockstates
+
+
+
+OPTIFINE
+- ctm
+- cem
+
+* MODEL FIXING WORKFLOW
+1. Texture Name Reassignment
+2. Fence & Wall Model Update
+3. Rename models
+
+4. Add root models that are missing
+   - code for finding all root models
+   - code for adding missing root models
+
+MOSSY COBBLE -> MOSSY
+REMOVE SLAB MODELS
+
+
+ITEM MODEL WORKFLOW
+0. Add Root if doesnt exist (handheld rod, handheld, generated)
+
+1. minecraft:item -> items
+   item -> items
+   minecraft:block -> blocks
+   block -> blocks
+
+2. first/thirdperson_right -> first/thirdperson right
+   apply rotation, transform & scale transformations (display, fp, 3p, fixed)
+   * each child is an overlay (overwrites the parent)
+
+3. Fix Tools & Bow 3rd Person Orientation!
+
